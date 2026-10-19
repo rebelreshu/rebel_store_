@@ -6,20 +6,12 @@ plugins {
 android {
     namespace 'com.rebel.store'
     compileSdk 34
-
     defaultConfig {
         applicationId "com.rebel.store"
-        minSdk 24
+        minSdk 21
         targetSdk 34
-        versionCode 3
-        versionName "3.0"
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-    }
-
-    buildTypes {
-        release {
-            minifyEnabled false
-        }
+        versionCode 1
+        versionName "1.0"
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
